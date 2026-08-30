@@ -1,10 +1,10 @@
 home = """
-#####################
-#                   #
-#     SOULSHELL     #
-# Just be your self #
-#                   #
-#####################
+######################
+#                    #
+#      SOULSHELL     #
+#  Just be yourself  #
+#                    #
+######################
 
 Welcome to SoulShell - your personal diary via terminal.
 
@@ -18,4 +18,12 @@ Please, choose any option beneath:
 6. Exit.
 """
 print(home)
-choose = int(input(">"))
+
+def ToChoose():
+    try:
+        c = int(input("> "))
+    
+    except ValueError:
+        print("There isn't this option.")
+        return 6
+ToChoose()

@@ -1,10 +1,13 @@
-# 🐚SoulShell - Just be yourself.
+# 🐚 SoulShell - Just be yourself.
 
-![SouShellHome](https://github.com/aleonevenerius/SoulShell/blob/master/SoulShellHome.png)
+![SoulShellLogo](https://github.com/aleonevenerius/SoulShell/blob/master/SoulShellLogo.png)
 
-### What does it?
+## ❓What does it do?
 
-SoulShell is a simple personal diary via terminal. You can add, write, delete chapters 
-### What is the purpouse its?
+SoulShell is a simple personal diary via terminal. You can add, write, delete and view all chapters which you've written.
 
-The main reason to create this project was
+![SoulShellHome](https://github.com/aleonevenerius/SoulShell/blob/master/SoulShellHome.png)
+
+## What is its purpose?
+
+The main reason I created this project was to practise logical programming and data management.

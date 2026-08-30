@@ -1,6 +1,6 @@
 # 🐚SoulShell - Just be yourself.
 
-![SouShellHome](https://github.com/aleonevenerius/SoulShell/edit/master/SoulShellHome.png)
+![SouShellHome](https://github.com/aleonevenerius/SoulShell/blob/master/SoulShellHome.png)
 
 ### What does it?
 

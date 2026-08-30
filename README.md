@@ -1,6 +1,6 @@
 # 🐚 SoulShell - Just be yourself.
 
-![SoulShellLogo](https://github.com/aleonevenerius/SoulShell/blob/master/SoulShellLogo.png)
+![SoulShell](https://github.com/aleonevenerius/SoulShell/blob/master/SoulShell.png)
 
 ## ❓What does it do?
 

@@ -2,17 +2,17 @@
 
 ![SoulShell](https://github.com/aleonevenerius/SoulShell/blob/master/SoulShell.png)
 
-## ❓What Does It Do?
+## 📝 What Does It Do?
 
 SoulShell is a simple personal diary via terminal. You can add, write, delete and view all chapters which you've written.
 
 ![SoulShellHome](https://github.com/aleonevenerius/SoulShell/blob/master/SoulShellH.png)
 
-## What Is Its Purpose?
+## ❓What Is Its Purpose?
 
 The main reason I created this project was to practise logical programming and data management.
 
-## 🚀The Changelog
+## 🚀 The Changelog
 ### v0.1. - Sunday, August 30, 2026:
 * The programme's first version.
 * Added the programme's home.

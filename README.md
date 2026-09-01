@@ -16,9 +16,9 @@ The main reason I created this project was to practise logical programming and d
 ### v0.1. - Sunday, August 30, 2026:
 * The programme's first version.
 * Added the programme's home.
-### v.1.1 - Monday, August 31, 2026:
+### v.0.2 - Monday, August 31, 2026:
 * Loading icon added.
-### v1.2 - Tuesday, September 1, 2026:
+### v0.3- Tuesday, September 1, 2026:
 * Added a new function to add a chapter.
 
 ![NewFunction](https://github.com/aleonevenerius/SoulShell/blob/master/NewFunction.png)

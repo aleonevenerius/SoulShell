@@ -35,6 +35,8 @@ def ToTime():
     time.sleep(1)
     print("\nDone!")
 
+
+
 def ToChoose():
     try:
         c = int(input("> "))
@@ -62,3 +64,8 @@ def ToChoose():
             case 8:
                 ToTime()
 ToChoose()
+
+words = input("Kick off:\n")
+
+with open("test.txt", "w") as file:
+    file.write(f"{words}"+"\n")

@@ -20,4 +20,5 @@ The main reason I created this project was to practise logical programming and d
 * Loading icon added.
 ### v1.2 - Tuesday, September 1, 2026:
 * Added a new function to add a chapter.
-  ![NewFunction](https://github.com/aleonevenerius/SoulShell/blob/master/NewFunction.png)
+
+![NewFunction](https://github.com/aleonevenerius/SoulShell/blob/master/NewFunction.png)

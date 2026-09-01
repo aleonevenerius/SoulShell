@@ -1,6 +1,7 @@
 import time
 
-home = """
+def ToHome():
+    print("""
 ######################
 #                    #
 #      SOULSHELL     #
@@ -20,9 +21,9 @@ Please, choose any option beneath:
 6. Create a new notebook;
 7. Delete a new notebook;
 8. Exit.
-"""
+""")
 
-print(home)
+ToHome()
 
 def ToTime():
     icons = ["|", "/", "-", "\\", "|"]
@@ -34,7 +35,6 @@ def ToTime():
 
     time.sleep(1)
     print("\nDone!")
-
 
 
 def ToChoose():
@@ -49,6 +49,7 @@ def ToChoose():
          match c:
             case 1:
                 ToTime()
+                ToAddChapter()
             case 2:
                 ToTime()
             case 3:
@@ -62,10 +63,11 @@ def ToChoose():
             case 7:
                 ToTime()
             case 8:
-                ToTime()
+                print("Logout!")
+
+def ToAddChapter():
+    words = input(">")
+    with open("test.txt", "a") as file:
+        file.write(f"{words}"+"\n")
+
 ToChoose()
-
-words = input("Kick off:\n")
-
-with open("test.txt", "w") as file:
-    file.write(f"{words}"+"\n")

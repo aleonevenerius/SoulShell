@@ -18,3 +18,5 @@ The main reason I created this project was to practise logical programming and d
 * Added the programme's home.
 ### v.1.1 - Monday, August 31, 2026:
 * Loading icon added.
+### v1.2 - Tuesday, September 1, 2026:
+* Added a new function to add a chapter.

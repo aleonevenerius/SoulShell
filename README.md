@@ -6,7 +6,7 @@
 
 SoulShell is a simple personal diary via terminal. You can add, write, delete and view all chapters which you've written.
 
-![SoulShellHome](https://github.com/aleonevenerius/SoulShell/blob/master/SoulShellH.png)
+![SoulShellHome](https://github.com/aleonevenerius/SoulShell/blob/master/NewHomeSoulShell.png)
 
 ## ❓What Is Its Purpose?
 
@@ -20,3 +20,4 @@ The main reason I created this project was to practise logical programming and d
 * Loading icon added.
 ### v1.2 - Tuesday, September 1, 2026:
 * Added a new function to add a chapter.
+  ![NewFunction](https://github.com/aleonevenerius/SoulShell/blob/master/NewFunction.png)

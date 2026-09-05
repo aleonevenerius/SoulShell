@@ -60,6 +60,7 @@ def ToChoose():
                 ToTime()
             case 6:
                 ToTime()
+                ToAddNotebook()
             case 7:
                 ToTime()
             case 8:
@@ -70,4 +71,12 @@ def ToAddChapter():
     with open("test.txt", "a") as file:
         file.write(f"{words}"+"\n")
 
+def ToAddNotebook():
+    try:
+        with open('NewNotebook.txt', "a") as file:
+            pass
+    except:
+        print("My apologies. There is an error.")
+    else:
+        print("Marvellous! Your new notebook was created.")
 ToChoose()

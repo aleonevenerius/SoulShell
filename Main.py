@@ -1,4 +1,5 @@
 import time
+import os
 
 def ToHome():
     print("""
@@ -19,7 +20,7 @@ Please, choose any option beneath:
 4. Delete a chapter;
 5. View all chapter;
 6. Create a new notebook;
-7. Delete a new notebook;
+7. Delete notebook;
 8. Exit.
 """)
 
@@ -62,12 +63,13 @@ def ToChoose():
                 ToAddNotebook()
             case 7:
                 ToTime()
+                ToDeleteNotebook()
             case 8:
                 print("Logout!")
 
 def ToAddChapter():
     n = input("Which notebook?: ")
-    pen = input("=>")
+    pen = input("=> ")
     with open(n+".txt", "a") as file:
         file.write(f"{pen}"+"\n")
 
@@ -78,7 +80,15 @@ def ToAddNotebook():
     except FileExistsError:
         print("Ops! This notebook already exists.")
     else:
+        ToTime()
         print("Awasome! Your new notebook was created.")
 
-
+def ToDeleteNotebook():
+    n = input("Which notebook do you wish delete forever?: ")
+    if os.path.exists(n+".txt"):
+        os.remove(n+".txt")
+        ToTime()
+        print(f"Quite nice! Your {n} noteboook was deleted")
+    else:
+        print("This notebook doen't exist!")
 ToChoose()

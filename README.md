@@ -20,8 +20,15 @@ The main reason I created this project was to practise logical programming and d
 * Loading icon added.
 ### v0.3- Tuesday, September 1, 2026:
 * Added a new function to add a chapter.
-
+  
 ![NewFunction](https://github.com/aleonevenerius/SoulShell/blob/master/Images/NewFunction.png)
 
 ### v0.04 - Sunday, September 5, 2026:
-* Add new function to create a new notebook.
+* Add a new function to create a new notebook.
+* Added a new function to delete notebooks.
+  
+![ToCreate](https://github.com/aleonevenerius/SoulShell/blob/master/Images/ItWasCreated.png)
+
+![ItDoesNotExist](https://github.com/aleonevenerius/SoulShell/blob/master/Images/ItDoesNotExist.png)
+
+![ToDelete](https://github.com/aleonevenerius/SoulShell/blob/master/Images/Deleted.png)

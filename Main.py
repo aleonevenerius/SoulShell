@@ -36,7 +36,6 @@ def ToTime():
     time.sleep(1)
     print("\nDone!")
 
-
 def ToChoose():
     try:
         c = int(input("> "))
@@ -67,16 +66,19 @@ def ToChoose():
                 print("Logout!")
 
 def ToAddChapter():
-    words = input("=>")
-    with open("test.txt", "a") as file:
-        file.write(f"{words}"+"\n")
+    n = input("Which notebook?: ")
+    pen = input("=>")
+    with open(n+".txt", "a") as file:
+        file.write(f"{pen}"+"\n")
 
 def ToAddNotebook():
+    n = input("What name do you wish to your new notebook?")
     try:
-        with open('NewNotebook.txt', "a") as file:
-            pass
-    except:
-        print("My apologies. There is an error.")
+        f = open(n+".txt", "x")
+    except FileExistsError:
+        print("Ops! This notebook already exists.")
     else:
-        print("Marvellous! Your new notebook was created.")
+        print("Awasome! Your new notebook was created.")
+
+
 ToChoose()

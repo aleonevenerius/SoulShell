@@ -66,7 +66,7 @@ def ToChoose():
                 print("Logout!")
 
 def ToAddChapter():
-    words = input(">")
+    words = input("=>")
     with open("test.txt", "a") as file:
         file.write(f"{words}"+"\n")
 
